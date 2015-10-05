@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body onload="do_game()">
+    <script>
+        var colors = ["blue", "cyan", "gold", "gray", "green", "magenta", "orange", "red", "black"];
+        function pick_random_index(array_length) {
+            return Math.floor(Math.random()) * colors.length;
+        }
+
+        function check(guess, target) {
+            return guess == target
+        }
+
+        function do_game() {
+            var target_index = pick_random_index(colors.length);
+            var target = colors[target_index];
+            alert(target);
+            var finished = false;
+            var color_prompt = "I am thinking of one of these colors\n\n" +
+               colors.join(", ") + "\n\n" +
+               "What color am I thinking of?";
+            while (!finished){
+                var guess = prompt("Enter the Color")
+                finished = check(guess,target)
+            }
+
+        }
+
+
+    </script>
+
+</body>
+</html>
