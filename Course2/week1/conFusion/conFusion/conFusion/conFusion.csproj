@@ -77,6 +77,7 @@
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\mystyles.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="history\index_w3pre_assig.html" />
     <Content Include="img\alberto.png" />
     <Content Include="img\buffet.png" />
     <Content Include="img\logo.png" />
