@@ -1,0 +1,27 @@
+{
+  "name": "conFusion",
+  "homepage": "https://github.com/gmahi/coursera_fullstack",
+  "authors": [
+    "Mahendra Gulla"
+  ],
+  "description": "Website for a an awesome restaurent",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "conFusion",
+    "Fusion",
+    "Restaurent"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}
